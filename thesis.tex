@@ -1,0 +1,67 @@
+%! TeX program = lualatex
+% Main LaTeX Document - thesis.tex
+\documentclass[12pt,a4paper]{report}
+
+% Fix for fancyhdr headheight error
+\setlength{\headheight}{14.5pt}
+\addtolength{\topmargin}{-2.5pt}
+
+% Load the environment settings
+\input{env}
+
+\setlength{\parindent}{1in}
+
+% Begin the document
+\begin{document}
+
+% Title Page
+\begin{titlepage}
+    \centering
+    \vspace*{1in}
+    {\fontsize{18pt}{18pt}\bfseries THESIS TITLE IN ENGLISH \\[1.5em]}
+    {\fontsize{16pt}{16pt}\bfseries NAME SURNAME \\[1.5em]}
+    \vfill
+    {\fontsize{16pt}{16pt}\bfseries
+    A THESIS SUBMITTED IN PARTIAL FULFILLMENT \\ OF THE REQUIREMENT FOR THE DEGREE OF \\ BACHELOR OF ENGINEERING IN ROBOTICS AND AI ENGINEERING \\ SCHOOL OF ENGINEERING \\ KING MONGKUT'S INSTITUTE OF TECHNOLOGY LADKRABANG \\ 20XX \\ KMITL-20XX-EN-X-XXX-XXX \\ RAI EXAMPLE}
+\end{titlepage}
+
+% Roman numbering for front matter
+\pagenumbering{roman}
+\chapter*{ABSTRACT IN ENGLISH}
+\addcontentsline{toc}{chapter}{Abstract}
+\input{chapters/abstract}
+
+\chapter*{Acknowledgement}
+\addcontentsline{toc}{chapter}{Acknowledgement}
+\input{chapters/acknowledgement}
+\cleardoublepage
+
+\tableofcontents
+\listoftables
+\listoffigures
+
+% Arabic numbering for main content
+\cleardoublepage
+\pagenumbering{arabic}
+
+\input{chapters/ch1_introduction}
+\input{chapters/ch2_related_theories}
+\input{chapters/ch3_design_construction}
+\input{chapters/ch4_results}
+\input{chapters/ch5_conclusion}
+
+% Example citation to avoid bibliography error
+\cite{zhang2023design}
+
+% Bibliography
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliographystyle{plain}
+\bibliography{references}
+
+% Appendix
+\appendix
+\chapter{Appendix Title}
+Additional material here.
+
+\end{document}
