@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex thesis"] 1754574984.00937 "thesis.aux" "thesis.bbl" "thesis" 1754574989.55754 0
+["bibtex thesis"] 1754577858.98282 "thesis.aux" "thesis.bbl" "thesis" 1754577864.63 0
   "./references.bib" 1754569227 532 5c58d946654981401fb4b545ca5f2e61 ""
   "d:/texlive/2025/texmf-dist/bibtex/bst/base/plain.bst" 1753521669 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "thesis.aux" 1754574987 2162 e8a21d1bebb952402254fc2e75c1f9e3 "lualatex"
+  "thesis.aux" 1754577862 2434 623a9bc5d066666ca5da503845444b80 "lualatex"
   (generated)
   "thesis.bbl"
   "thesis.blg"
   (rewritten before read)
-["lualatex"] 1754574984.78352 "d:/KMITL/Scholarship/Capstone Work/version1/thesis.tex" "thesis.pdf" "thesis" 1754574989.5593 0
+["lualatex"] 1754577859.78106 "d:/KMITL/Scholarship/Capstone Work/version1/thesis.tex" "thesis.pdf" "thesis" 1754577864.63167 0
   "D:/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc" 1754478137 128291 9aec4b8bfb7809e53738b8728ccf2979 ""
   "D:/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc" 1754478136 127662 f89cc1c3da4c0d4bdbd397808b6a4075 ""
   "D:/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/thsarabun-bold.luc" 1754478021 83299 85c9c881ea56adad01a346268c55fa42 ""
@@ -21,8 +21,8 @@
   "c:/Users/gamin/AppData/Local/Microsoft/Windows/Fonts/THSarabun.ttf" 1159202746 98764 f1454be6e25e33d0a6d0724638435259 ""
   "chapters/abstract.tex" 1754569672 1441 0555102e394676ec8145b15de7323daa ""
   "chapters/acknowledgement.tex" 1754569896 810 16f8f107734aa9233e7441dcd942bd5d ""
-  "chapters/ch1_introduction.tex" 1754574977 5913 59827882a09dff4e25d10eace618bac9 ""
-  "chapters/ch2_related_theories.tex" 1754568724 112 a3b283c1b5029d870c1867926db9c208 ""
+  "chapters/ch1_introduction.tex" 1754576601 5913 42186630a08e5079d4c073736f7a8c90 ""
+  "chapters/ch2_related_theories.tex" 1754577713 1129 b9b3dc01ad3d4d0a28a558a655b89d7d ""
   "chapters/ch3_design_construction.tex" 1754568724 105 77e1b2304dfe32aa16b750b49e50afe1 ""
   "chapters/ch4_results.tex" 1754568724 127 9609927e7b5e0baef694626c4535aafc ""
   "chapters/ch5_conclusion.tex" 1754568724 101 3ec82fac557553d6ef56e6c2b10a9430 ""
@@ -140,13 +140,13 @@
   "d:/texlive/2025/texmf-dist/tex/luatex/luaotfload/luaotfload.lua" 1753524861 13566 16df94dd2de231b2bca0aaa0190941fe ""
   "d:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1753528761 5569593 2211a83d1f0572961035ad2791fe78f1 ""
   "d:/texlive/2025/texmf-var/web2c/luahbtex/lualatex.fmt" 1753529409 6514110 825251472e726182f975c8d73fd99ddf ""
-  "env.tex" 1754574781 1672 6a429563ee1ed030c6fbcabc26a0e9a6 ""
-  "thesis.aux" 1754574987 2162 e8a21d1bebb952402254fc2e75c1f9e3 "lualatex"
-  "thesis.bbl" 1754574984 329 ee2a5f8a8babec0d52c8381492905aee "bibtex thesis"
-  "thesis.lof" 1754574987 120 4b5392bf4295ae9f4473a7a4fff7fdc5 "lualatex"
-  "thesis.lot" 1754574987 120 4b5392bf4295ae9f4473a7a4fff7fdc5 "lualatex"
+  "env.tex" 1754577852 1922 cae652fb5111e9d6b9d80c190bc19b64 ""
+  "thesis.aux" 1754577862 2434 623a9bc5d066666ca5da503845444b80 "lualatex"
+  "thesis.bbl" 1754577859 329 ee2a5f8a8babec0d52c8381492905aee "bibtex thesis"
+  "thesis.lof" 1754577862 120 4b5392bf4295ae9f4473a7a4fff7fdc5 "lualatex"
+  "thesis.lot" 1754577862 120 4b5392bf4295ae9f4473a7a4fff7fdc5 "lualatex"
   "thesis.tex" 1754574037 1687 28d440e46ca9029cabfc4f1ca26f2f36 ""
-  "thesis.toc" 1754574987 964 94e9850217d88fab0e948a669727bc6f "lualatex"
+  "thesis.toc" 1754577862 1154 142f6f84e9a82680e0e239d8fa425a43 "lualatex"
   (generated)
   "thesis.aux"
   "thesis.lof"

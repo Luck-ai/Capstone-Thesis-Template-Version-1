@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.7.26)  7 AUG 2025 20:56
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.7.26)  7 AUG 2025 21:44
  restricted system commands enabled.
  file:line:error style messages enabled.
 **"d:/KMITL/Scholarship/Capstone Work/version1/thesis.tex"
@@ -536,16 +536,16 @@ L3 programming layer <2025-07-19>
 )
 
 Here is how much of LuaTeX's memory you used:
- 8359 strings out of 470133
+ 8361 strings out of 470133
  100000,662416 words of node,token memory allocated
  679 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 6 attribute, 91 glue_spec, 6 attribute_list, 1 write nodes
-   avail lists: 1:1,2:450,3:171,4:34,5:85,6:35,7:7924,8:2,9:239,10:22,11:645
- 36573 multiletter control sequences out of 65536+600000
+   avail lists: 1:1,2:502,3:214,4:34,5:103,6:48,7:7930,8:2,9:267,10:22,11:655
+ 36575 multiletter control sequences out of 65536+600000
  54 fonts using 3618615 bytes
  78i,11n,95p,351b,325s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Users/gamin/AppData/Local/Microsoft/Windows/Fonts/THSarabun Italic.ttf><c:/Users/gamin/AppData/Local/Microsoft/Windows/Fonts/THSarabun.ttf><c:/Users/gamin/AppData/Local/Microsoft/Windows/Fonts/THSarabun Bold.ttf>
-Output written on thesis.pdf (14 pages, 39851 bytes).
+Output written on thesis.pdf (14 pages, 41009 bytes).
 
 PDF statistics: 70 PDF objects out of 1000 (max. 8388607)
  44 compressed objects within 1 object stream
