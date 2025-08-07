@@ -88,6 +88,7 @@ INPUT d:/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT d:/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT d:/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT d:/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
+INPUT d:/texlive/2025/texmf-dist/tex/latex/tools/indentfirst.sty
 INPUT d:/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT d:/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
 INPUT d:/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
