@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.7.26)  7 AUG 2025 21:44
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.7.26)  8 AUG 2025 11:07
  restricted system commands enabled.
  file:line:error style messages enabled.
 **"d:/KMITL/Scholarship/Capstone Work/version1/thesis.tex"
@@ -464,7 +464,13 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
  (d:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+)
+
+[3
+
+]
+
+[4])
 \tf@toc=\write3
 
 \openout3 = thesis.toc
@@ -478,11 +484,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout5 = thesis.lof
 
 
-[3
-
-]
-
-[4] (./chapters/ch1_introduction.tex
+[5] (./chapters/ch1_introduction.tex
 Chapter 1.
 
 
@@ -495,40 +497,132 @@ Chapter 1.
 
 [3]
 Chapter 2.
-) (./chapters/ch3_design_construction.tex
+
 
 [4
 
 ]
+
+[5]
+
+[6]
+
+[7]) (./chapters/ch3_design_construction.tex
+
+[8]
 Chapter 3.
-) (./chapters/ch4_results.tex
 
-[5
+
+[9
 
 ]
+
+[10]
+
+[11]
+
+[12]
+
+[13]) (./chapters/ch4_results.tex
+
+[14]
 Chapter 4.
-) (./chapters/ch5_conclusion.tex
 
-[6
+
+[15
 
 ]
+Overfull \hbox (12.00241pt too wide) in paragraph at lines 65--65
+|[]\TU/THSarabunPSK(0)/b/n/16 Mul-ti-ple Ci-ta-tions within the Same Topic from Mul-ti-ple Sources| 
+ []
+
+
+
+[16]) (./chapters/ch5_conclusion.tex
+
+[17]
 Chapter 5.
-)
 
-[7
 
-] (./thesis.bbl)
+[18
 
-[8
+]
+
+[19]
+
+[20]
+
+[21]
+Overfull \hbox (3.73721pt too wide) in paragraph at lines 152--153
+[]\TU/THSarabunPSK(0)/m/n/12 Or-ga-ni-za-tion Name.//Year BE. Pub-li-ca-tion Year.//Book Ti-tle.//Vol-ume (if any).//Edi-tion (if any).//City
+ []
+
+
+Overfull \hbox (0.97719pt too wide) in paragraph at lines 172--173
+[]\TU/THSarabunPSK(0)/m/n/12 Au-thor of the Ar-ti-cle.//Year BE. Pub-li-ca-tion Year.// ”Ar-ti-cle Ti-tle (Con-fer-ence Re-port).”//Page/Page
+ []
+
+
+
+[22]
+Overfull \hbox (48.25485pt too wide) in paragraph at lines 230--231
+[]\TU/THSarabunPSK(0)/m/n/12 Au-thor.//Pub-li-ca-tion Year, Date, Month.//”Ar-ti-cle Ti-tle.”//Au-thor of the Ar-ti-cle.//News-pa-per Name.//Page/Page
+ []
+
+
+
+[23]
+Overfull \hbox (4.08514pt too wide) in paragraph at lines 250--251
+[]\TU/THSarabunPSK(0)/m/n/12 Au-thor.//Year BE. Pub-li-ca-tion Year.//”Doc-u-ment Ti-tle.”//Edi-tion (if any).//City of Pub-li-ca-tion://Pub-
+ []
+
+
+Overfull \hbox (11.33316pt too wide) in paragraph at lines 260--261
+[]\TU/THSarabunPSK(0)/m/n/12 Or-ga-ni-za-tion Name.//Pub-li-ca-tion Year.//Pub-li-ca-tion Ti-tle.//Edi-tion (if any).//City of Pub-li-ca-tion://Pub-
+ []
+
+
+
+[24]
+Overfull \hbox (81.67719pt too wide) in paragraph at lines 328--329
+[]\TU/THSarabunPSK(0)/m/n/12 Texas In-stru-ments. 1998. Speech syn-the-sis Pro-ces-sors. [On-line]. Avail-able: http://www.ti.com/sc/docs/msp/speech/in-
+ []
+
+
+
+[25]
+Overfull \hbox (6.53319pt too wide) in paragraph at lines 340--341
+[]\TU/THSarabunPSK(0)/m/n/12 Ed-i-tor Name./Ed-i-tor (Com-piler).//Book Ti-tle.//Edi-tion (if any).//City of Pub-li-ca-tion://Pub-lisher.//Pub-
+ []
+
+
+Overfull \hbox (17.10521pt too wide) in paragraph at lines 358--359
+[]\TU/THSarabunPSK(0)/m/n/12 Au-thor.//”Ar-ti-cle Ti-tle.”//Jour-nal Name.//Vol-ume,/Is-sue Num-ber.//Month Year of Print-ing.//Page/Page
+ []
+
+
+
+[26])
+Overfull \hbox (80.48921pt too wide) in paragraph at lines 418--50
+[]\TU/THSarabunPSK(0)/m/n/12 [3] Texas In-stru-ments. ”Speech Syn-the-sis Pro-ces-sors.” [On-line]. Avail-able : http://www.ti.com/sc/does/msp/speech/in-
+ []
+
+
+
+[27] (./thesis.bbl) (./chapters/appendix.tex
+
+[28
 
 
 ]
 Appendix A.
 
 
-[9
+[29
 
-] (./thesis.aux)
+])
+
+[30] (./thesis.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-19>
@@ -536,19 +630,19 @@ L3 programming layer <2025-07-19>
 )
 
 Here is how much of LuaTeX's memory you used:
- 8361 strings out of 470133
+ 8404 strings out of 470133
  100000,662416 words of node,token memory allocated
- 679 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 6 attribute, 91 glue_spec, 6 attribute_list, 1 write nodes
-   avail lists: 1:1,2:502,3:214,4:34,5:103,6:48,7:7930,8:2,9:267,10:22,11:655
- 36575 multiletter control sequences out of 65536+600000
- 54 fonts using 3618615 bytes
- 78i,11n,95p,351b,325s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/Users/gamin/AppData/Local/Microsoft/Windows/Fonts/THSarabun Italic.ttf><c:/Users/gamin/AppData/Local/Microsoft/Windows/Fonts/THSarabun.ttf><c:/Users/gamin/AppData/Local/Microsoft/Windows/Fonts/THSarabun Bold.ttf>
-Output written on thesis.pdf (14 pages, 41009 bytes).
+ 687 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 8 attribute, 91 glue_spec, 8 attribute_list, 1 write nodes
+   avail lists: 1:1,2:987,3:315,4:34,5:246,6:88,7:7930,8:18,9:608,10:22,11:655
+ 36612 multiletter control sequences out of 65536+600000
+ 55 fonts using 3744703 bytes
+ 78i,12n,95p,941b,475s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/Users/gamin/AppData/Local/Microsoft/Windows/Fonts/THSarabun Italic.ttf><d:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf><c:/Users/gamin/AppData/Local/Microsoft/Windows/Fonts/THSarabun.ttf><c:/Users/gamin/AppData/Local/Microsoft/Windows/Fonts/THSarabun Bold.ttf><d:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on thesis.pdf (36 pages, 144625 bytes).
 
-PDF statistics: 70 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+PDF statistics: 170 PDF objects out of 1000 (max. 8388607)
+ 112 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
