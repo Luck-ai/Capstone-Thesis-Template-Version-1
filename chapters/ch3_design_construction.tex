@@ -44,12 +44,13 @@ Major headings, which are titles other than the chapter title, should be aligned
 
 Subheadings, which divide the major headings, should be indented from the left margin by 7 spaces. Use the number of the major heading, followed by a period (.), and then the subheading number. Leave a 2-space gap and then use a bold 16-point font size. Leave a 1/2-line space above.
 
-\begin{verbatim}
-1.1 Major Heading
-    1.1.1 Sub heading of 1.1
-        1.1.1.1 Sub Heading of 1.1.1
-            1) Sub Heading of 1.1.1.1
-\end{verbatim}
+\noindent
+\begin{flushleft}
+\hspace{7em}1.1 Major Heading \dotfill \\
+\hspace{8em}1.1.1 Sub heading of 1.1 \dotfill \\
+\hspace{9em}1.1.1.1 Sub Heading of 1.1.1 \dotfill \\
+\hspace{10em}1) Sub Heading of 1.1.1.1 \dotfill
+\end{flushleft}
 
 For any section headings, capitalize the first letter of each word. The first letter of each word in major headings and subheadings must be capitalized.
 
@@ -111,7 +112,7 @@ Use this for cases when the abbreviation list is printed separately from the int
 
 Leave one line space, and then start printing the abbreviations or symbols flush with the left margin. If the description of the abbreviation or symbol doesn't fit on one line, start the next line from the 8th character, as before.
 
-For English letters, Greek letters, and symbols with upper/lower marks and numeric marks: English Letters: A, B, C, b, c Greek Letters: $\Gamma$, P, Y,...
+For English letters, Greek letters, and symbols with upper/lower marks and numeric marks: English Letters: A, B, C, b, c Greek Letters: C, P, Y,...
 
 If there are English letters mixed with Greek letters, the Greek letters come after the English letters. Symbols with Upper/Lower Marks and Numeric Marks: A$_1$ A$_x$ A$^1$ A$^x$ A$_1^x$ a$_1$ a$_x$ a$^1$ a$^x$ a$_1^x$
 
@@ -121,11 +122,29 @@ In this order, symbols with lower marks come before symbols with upper marks. Ad
 
 For biological organisms, plants, and animals, use the International Code of Nomenclature for emphasizing scientific names. Make them stand out distinctly from other text by underlining or using italics. Scientific names follow the binomial system, consisting of two parts. The first part is the Genus name, which begins with an uppercase letter, and the second part is the Specific epithet, written slightly offset and beginning with a lowercase letter. In scientific names, it's common to include the name of the person who initially defined the name and described the organism. Personal names are typically used for surnames only. If it's a well-known name, it may be abbreviated, such as Linnaeus abbreviated as "Linn." or "L." In some cases, when two individuals co-author a name, both names are used, for example...
 
-\begin{enumerate}[label=\alph*.]
-    \item micro-organism: \textit{Escherichia coli}, \textit{Bacillus subtilis}, \textit{Azospirillum brasilense}
-    \item plant: \textit{Coccinia grandis} L., \textit{Canna indica} Linn., \textit{Cocos nucifera} Linn.
-    \item animal: \textit{Ptilolaemus tickeli}, \textit{Panthera tigris}
-\end{enumerate}
+\begin{flushleft}
+\begin{tabular}{@{}l l}
+\hspace{1in}a. micro-organism &
+\begin{tabular}[t]{@{}l@{}}
+    Escherichia coli, \\
+    Bacillus subtilis, \\
+    Azospirillum brasilense
+\end{tabular} \\[1em]
+
+\hspace{1in}b. plant &
+\begin{tabular}[t]{@{}l@{}}
+    Coccinia grandis L., \\
+    Canna indica Linn., \\
+    Cocos nucifera Linn.
+\end{tabular} \\[1em]
+
+\hspace{1in}c. animal &
+\begin{tabular}[t]{@{}l@{}}
+    Ptilolaemus tickeli, \\
+    Panthera tigris
+\end{tabular} \\
+\end{tabular}
+\end{flushleft}
 
 \section{MATHEMATICAL EQUATIONS}
 
@@ -144,46 +163,74 @@ For words in foreign languages, print a translation in English within parenthese
 
 \section{ABBREVIATIONS}
 
-\begin{itemize}
-    \item b\&w (black and white) means black and white images.
-    \item c. (copyright) means used for copyright year.
-    \item ca. (circa) means an approximate date.
-    \item ch. (chapter) means chapters in royal decrees, laws, etc.
-    \item chap. (chapter) means regular chapters; use "chaps." for plural.
-    \item col. (color) means color photographs.
-    \item ed. (edition ; editor ; edited by) means editor or edited by.
-    \item enl. (enlarged) means an enlarged edition, e.g., "enl. ed.".
-    \item et al. (et alii) means and others.
-    \item fig. (figure) means figures, plural "figs.".
-    \item fr. (frame) means frame in slides to indicate the number of frames.
-    \item i.p.s. (inches per second) means inches per second in tape speed.
-    \item ill. (illustrated by) means illustrated by.
-    \item min. (minutes) means film duration in minutes.
-    \item ms. (manuscript) means manuscript, plural "mss.".
-    \item n.d. (no date) means no date.
-    \item n.p. (no place; no place of publishing) means no place of publication.
-    \item no. (number) means number, plural "nos.".
-    \item 2nd. ed. (second edition) means the second edition.
-    \item p. (page) means page, plural "pp.".
-    \item Par. (paragraph) means paragraph, plural "pars.".
-    \item Pt. (part) means part, plural "pts.".
-    \item r.p.m. (revolutions per minute) means revolutions per minute.
-    \item rev. (revised) means revised edition, e.g., "rev. ed.".
-    \item 3rd ed. (third edition) means the third edition.
-    \item sc. (scene) means scene.
-    \item sd. (sound) means sound in films.
-    \item sec. (section) means section, plural "secs.".
-    \item Si. (silent) means silent films.
-    \item trans. (translator; translated by) means "translator" or "translated by".
-    \item Vol. (volume) means volume, plural "vols.".
-\end{itemize}
+b\&w (black and white) means black and white images.
+
+c. (copyright) means used for copyright year.
+
+ca. (circa) means an approximate date.
+
+ch. (chapter) means chapters in royal decrees, laws, etc.
+
+chap. (chapter) means regular chapters; use "chaps." for plural.
+
+col. (color) means color photographs.
+
+ed. (edition ; editor ; edited by) means editor or edited by.
+
+enl. (enlarged) means an enlarged edition, e.g., "enl. ed.".
+
+et al. (et alii) means and others.
+
+fig. (figure) means figures, plural "figs.".
+
+fr. (frame) means frame in slides to indicate the number of frames.
+
+i.p.s. (inches per second) means inches per second in tape speed.
+
+ill. (illustrated by) means illustrated by.
+
+min. (minutes) means film duration in minutes.
+
+ms. (manuscript) means manuscript, plural "mss.".
+
+n.p. (no place; no place of publishing) means no place of publication.
+
+no. (number) means number, plural "nos.".
+
+2nd. ed. (second edition) means the second edition.
+
+p. (page) means page, plural "pp.".
+
+Par. (paragraph) means paragraph, plural "pars.".
+
+Pt. (part) means part, plural "pts.".
+
+r.p.m. (revolutions per minute) means revolutions per minute.
+
+rev. (revised) means revised edition, e.g., "rev. ed.".
+
+3rd ed. (third edition) means the third edition.
+
+sc. (scene) means scene.
+
+sd. (sound) means sound in films.
+
+sec. (section) means section, plural "secs.".
+
+Si. (silent) means silent films.
+
+trans. (translator; translated by) means "translator" or "translated by".
+
+Vol. (volume) means volume, plural "vols.".
 
 \section{PUNCTUATION MARKS}
 
-\begin{itemize}
-    \item Period (.) should be printed with a 2-space gap between words.
-    \item Comma (,) should be printed with a 1-space gap between words.
-    \item Semicolon (;) should be printed with a 1-space gap between words.
-    \item Colon (:) should be printed with a 1-space gap between words.
-    \item Quotation marks (" ") should be printed with a 1-space gap between words.
-\end{itemize}
+Period (.) should be printed with a 2-space gap between words.
+
+Comma (,) should be printed with a 1-space gap between words.
+
+Semicolon (;) should be printed with a 1-space gap between words.
+
+Colon (:) should be printed with a 1-space gap between words.
+
+Quotation marks (" ") should be printed with a 1-space gap between words.

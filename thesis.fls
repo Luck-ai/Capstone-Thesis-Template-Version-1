@@ -144,7 +144,6 @@ OUTPUT thesis.lof
 INPUT ./chapters/ch1_introduction.tex
 INPUT ./chapters/ch2_related_theories.tex
 INPUT ./chapters/ch3_design_construction.tex
-INPUT D:/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/lmmono12-regular.luc
 INPUT ./chapters/ch4_results.tex
 INPUT ./chapters/ch5_conclusion.tex
 INPUT ./thesis.bbl
