@@ -14,18 +14,32 @@
 
 % Title Page
 \begin{titlepage}
+    \fontsize{18pt}{18pt}\bfseries THESIS TITLE IN ENGLISH \\[1.5em]
     \centering
-    \vspace*{1in}
-    {\fontsize{18pt}{18pt}\bfseries THESIS TITLE IN ENGLISH \\[1.5em]}
-    {\fontsize{16pt}{16pt}\bfseries NAME SURNAME \\[1.5em]}
+    % \vspace*{5in}
+    \vfill
+    \begin{center}
+        {\fontsize{16pt}{16pt}\bfseries NAME SURNAME\par}
+    \end{center}
+    \vfill
     \vfill
     {\fontsize{16pt}{16pt}\bfseries
-    A THESIS SUBMITTED IN PARTIAL FULFILLMENT \\ OF THE REQUIREMENT FOR THE DEGREE OF \\ BACHELOR OF ENGINEERING IN ROBOTICS AND AI ENGINEERING \\ SCHOOL OF ENGINEERING \\ KING MONGKUT'S INSTITUTE OF TECHNOLOGY LADKRABANG \\ 20XX \\ KMITL-20XX-EN-X-XXX-XXX \\ RAI EXAMPLE}
+    A THESIS SUBMITTED IN PARTIAL FULFILLMENT \\ OF THE REQUIREMENT FOR THE DEGREE OF \\ BACHELOR OF ENGINEERING IN ROBOTICS AND AI ENGINEERING \\ SCHOOL OF ENGINEERING \\ KING MONGKUT'S INSTITUTE OF TECHNOLOGY LADKRABANG \\ 20XX \\ KMITL-20XX-EN-X-XXX-XXX}
 \end{titlepage}
+
+% Copyright Page
+\newpage
+\thispagestyle{empty}
+\vspace*{\fill}
+    {\fontsize{16pt}{16pt}\bfseries
+    \noindent
+    COPYRIGHT 20XX \\
+    SCHOOL OF ENGINEERING \\
+    KING MONGKUT'S INSTITUTE OF TECHNOLOGY LADKRABANG}
 
 % Roman numbering for front matter
 \pagenumbering{roman}
-\chapter*{ABSTRACT IN ENGLISH}
+\newpage
 \addcontentsline{toc}{chapter}{Abstract}
 \input{chapters/abstract}
 
@@ -35,7 +49,11 @@
 \cleardoublepage
 
 \tableofcontents
+\cleardoublepage
+% Put List of Tables on its own page
 \listoftables
+\cleardoublepage
+% Put List of Figures on its own page
 \listoffigures
 
 % Arabic numbering for main content
