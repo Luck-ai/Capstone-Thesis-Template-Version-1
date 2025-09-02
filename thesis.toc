@@ -82,3 +82,4 @@
 \contentsline {chapter}{Bibliography}{25}{subsubsection.5.3.8.6}%
 \contentsline {chapter}{\numberline {A}GUIDELINES AND PROCEDURES FOR THESIS WRITING}{26}{appendix.A}%
 \contentsline {chapter}{GUIDELINES AND PROCEDURES FOR THESIS WRITING}{27}{appendix*.5}%
+\contentsline {chapter}{AUTHOR BIOGRAPHY}{29}{appendix*.6}%

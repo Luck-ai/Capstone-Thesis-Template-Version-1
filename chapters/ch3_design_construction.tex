@@ -62,8 +62,6 @@ Insert tables within the relevant sections of the main text, leaving one line sp
 
 (Leave one line space)
 
-\textbf{Table 3.1} Example of Table
-
 \begin{table}[h]
 \centering
 \begin{tabular}{|c|c|c|c|c|c|c|}
@@ -78,6 +76,8 @@ S$_1$ (cm) & S$_2$ (cm) & 0 & 30 & 50 & 80 & 100 \\
 4.8 & 10.5 & - & - & - & - & - \\
 \hline
 \end{tabular}
+\caption{Example of Table}
+\label{tab:3.1}
 \end{table}
 
 (Leave one line space)
@@ -89,9 +89,10 @@ To insert images, leave one line space before placing the image in the center of
 (Leave one line space)
 
 \begin{figure}[h]
-\centering
-% Placeholder for actual figure content
-\rule{6cm}{4cm} % This represents a placeholder for an actual figure
+\begin{center}
+    \includegraphics[width=4cm,height=4cm]{sampleimg.png}
+\end{center}
+
 \caption{Example of Figure}
 \label{fig:3.1}
 \end{figure}

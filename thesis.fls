@@ -174,10 +174,14 @@ OUTPUT thesis.lof
 INPUT ./chapters/ch1_introduction.tex
 INPUT ./chapters/ch2_related_theories.tex
 INPUT ./chapters/ch3_design_construction.tex
+INPUT ./images/sampleimg.png
+INPUT ./images/sampleimg.png
 INPUT ./chapters/ch4_results.tex
 INPUT ./chapters/ch5_conclusion.tex
 INPUT ./thesis.bbl
 INPUT ./chapters/appendix.tex
+INPUT ./images/authorbib.png
+INPUT ./images/authorbib.png
 INPUT ./thesis.aux
 INPUT ./thesis.out
 INPUT d:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
