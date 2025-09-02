@@ -134,6 +134,9 @@ OUTPUT thesis.aux
 INPUT d:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT d:/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 INPUT d:/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT d:/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
+INPUT d:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT d:/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT ./thesis.out
 INPUT ./thesis.out
 OUTPUT thesis.pdf

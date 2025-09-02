@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.7.26)  2 SEP 2025 22:32
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.7.26)  2 SEP 2025 22:41
  restricted system commands enabled.
  file:line:error style messages enabled.
 **"d:/KMITL/Scholarship/Capstone Work/version1/thesis.tex"
@@ -410,11 +410,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip105
 )
-
-Package hyperref Warning: Unexpected value for option `hidelinks'
-(hyperref)                is ignored on input line 103.
-
-Package hyperref Info: Option `unicode' set `true' on input line 103.
+Package hyperref Info: Option `unicode' set `true' on input line 129.
+Package hyperref Info: Option `colorlinks' set `true' on input line 129.
 ) (./thesis.aux)
 \openout1 = thesis.aux
 
@@ -552,7 +549,14 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 13.
+ (d:/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2025/01/14 v1.3e Standard LaTeX Color (DPC)
+ (d:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: luatex.def on input line 149.
+ (d:/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+Package hyperref Info: Link coloring ON on input line 13.
  (./thesis.out) (./thesis.out)
 \@outlinefile=\write3
 
@@ -715,7 +719,7 @@ Overfull \hbox (17.10521pt too wide) in paragraph at lines 348--349
 
 
 [23])
-Overfull \hbox (80.48921pt too wide) in paragraph at lines 408--68
+Overfull \hbox (80.48921pt too wide) in paragraph at lines 408--71
 []\TU/THSarabunPSK(0)/m/n/12 [3] Texas In-stru-ments. ”Speech Syn-the-sis Pro-ces-sors.” [On-line]. Avail-able : http://www.ti.com/sc/does/msp/speech/in-
  []
 
@@ -745,23 +749,23 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-19>
  ***********
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 30703795D717C27D4D939136C6A33C5F;15533.
+(rerunfilecheck)             Checksum: C368D6329C554302A4F903D500CFF256;15916.
 )
 
 Here is how much of LuaTeX's memory you used:
- 15825 strings out of 470133
+ 15904 strings out of 470133
  100000,794899 words of node,token memory allocated
- 692 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 8 attribute, 92 glue_spec, 8 attribute_list, 1 write nodes
-   avail lists: 1:1,2:1235,3:472,4:34,5:255,6:164,7:7018,8:26,9:772,10:22,11:641
- 43667 multiletter control sequences out of 65536+600000
+ 702 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 9 attribute, 92 glue_spec, 9 attribute_list, 1 write, 1 pdf_action nodes
+   avail lists: 1:1,2:1207,3:462,4:304,5:259,6:159,7:7018,8:26,9:757,10:22,11:641
+ 43731 multiletter control sequences out of 65536+600000
  56 fonts using 3783175 bytes
- 78i,12n,95p,941b,621s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 78i,12n,95p,941b,622s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Users/gamin/AppData/Local/Microsoft/Windows/Fonts/THSarabun Italic.ttf><c:/Users/gamin/AppData/Local/Microsoft/Windows/Fonts/THSarabun.ttf><c:/Users/gamin/AppData/Local/Microsoft/Windows/Fonts/THSarabun Bold.ttf><d:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on thesis.pdf (37 pages, 157618 bytes).
+Output written on thesis.pdf (37 pages, 159615 bytes).
 
-PDF statistics: 833 PDF objects out of 1000 (max. 8388607)
- 771 compressed objects within 8 object streams
+PDF statistics: 849 PDF objects out of 1000 (max. 8388607)
+ 787 compressed objects within 8 object streams
  236 named destinations out of 1000 (max. 131072)
- 649 words of extra memory for PDF output out of 10000 (max. 100000000)
+ 673 words of extra memory for PDF output out of 10000 (max. 100000000)
 
