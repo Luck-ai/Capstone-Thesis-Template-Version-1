@@ -167,6 +167,7 @@ INPUT d:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT ./chapters/acknowledgement.tex
 INPUT ./thesis.toc
 OUTPUT thesis.toc
+INPUT ./chapters/frontmatter.tex
 INPUT ./thesis.lot
 OUTPUT thesis.lot
 INPUT ./thesis.lof

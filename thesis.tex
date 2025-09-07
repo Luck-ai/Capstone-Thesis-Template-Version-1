@@ -19,11 +19,11 @@
     % \vspace*{5in}
     \vfill
     \begin{center}
-        {\fontsize{16pt}{16pt}\bfseries NAME SURNAME\par}
+        {\fontsize{18pt}{18pt}\bfseries NAME SURNAME\par}
     \end{center}
     \vfill
     \vfill
-    {\fontsize{16pt}{16pt}\bfseries
+    {\fontsize{18pt}{18pt}\bfseries
     A THESIS SUBMITTED IN PARTIAL FULFILLMENT \\ OF THE REQUIREMENT FOR THE DEGREE OF \\ BACHELOR OF ENGINEERING IN ROBOTICS AND AI ENGINEERING \\ SCHOOL OF ENGINEERING \\ KING MONGKUT'S INSTITUTE OF TECHNOLOGY LADKRABANG \\ 20XX \\ KMITL-20XX-EN-X-XXX-XXX}
 \end{titlepage}
 
@@ -31,7 +31,7 @@
 \newpage
 \thispagestyle{empty}
 \vspace*{\fill}
-    {\fontsize{16pt}{16pt}\bfseries
+    {\fontsize{18pt}{18pt}\bfseries
     \noindent
     COPYRIGHT 20XX \\
     SCHOOL OF ENGINEERING \\
@@ -40,24 +40,20 @@
 % Roman numbering for front matter
 \pagenumbering{roman}
 \newpage
+
+\addtocontents{toc}{\protect\vspace{-.5\baselineskip}%
+    \protect\noindent\makebox[\textwidth][r]{\bfseries Page}\par\protect\vspace{.5\baselineskip}}
 \addcontentsline{toc}{chapter}{Abstract}
 \input{chapters/abstract}
 
-\chapter*{Acknowledgement}
-\addcontentsline{toc}{chapter}{Acknowledgement}
+% Acknowledgement is contained in its own chapter file
 \input{chapters/acknowledgement}
 \cleardoublepage
 
 \tableofcontents
 \addcontentsline{toc}{chapter}{TABLE OF CONTENTS}
-\cleardoublepage
-% Put List of Tables on its own page
-\listoftables
-\addcontentsline{toc}{chapter}{LIST OF TABLES}
-\cleardoublepage
-% Put List of Figures on its own page
-\listoffigures
-\addcontentsline{toc}{chapter}{LIST OF FIGURES}
+% Front matter (lists) moved to a separate file for clarity
+\input{chapters/frontmatter}
 
 % Arabic numbering for main content
 \cleardoublepage
@@ -74,7 +70,7 @@
 
 % Bibliography
 \cleardoublepage
-\addcontentsline{toc}{chapter}{Bibliography}
+\addcontentsline{toc}{chapter}{BIBLIOGRAPHY}
 \bibliographystyle{plain}
 \bibliography{references}
 

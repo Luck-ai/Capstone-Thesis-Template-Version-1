@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.7.26)  2 SEP 2025 23:11
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.7.26)  7 SEP 2025 19:19
  restricted system commands enabled.
  file:line:error style messages enabled.
 **"d:/KMITL/Scholarship/Capstone Work/version1/thesis.tex"
@@ -575,9 +575,9 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
  (d:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+)) (./chapters/acknowledgement.tex
 
-[2] (./chapters/acknowledgement.tex)
+[2])
 
 [3
 
@@ -591,7 +591,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write4
 
 \openout4 = thesis.toc
-
+ (./chapters/frontmatter.tex
 
 [6] (./thesis.lot)
 \tf@lot=\write5
@@ -601,6 +601,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 [7
 
+
 ] (./thesis.lof)
 \tf@lof=\write6
 
@@ -608,6 +609,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 [8
+
+
+])
+
+[9
+
 
 ] (./chapters/ch1_introduction.tex
 Chapter 1.
@@ -643,7 +650,7 @@ Chapter 3.
 ]
 
 [9]
-<images/sampleimg.png, id=652, 126.4725pt x 134.75343pt>
+<images/sampleimg.png, id=658, 126.4725pt x 134.75343pt>
 File: images/sampleimg.png Graphic file (type png)
 <use images/sampleimg.png>
 Package luatex.def Info: images/sampleimg.png  used on input line 93.
@@ -725,7 +732,7 @@ Overfull \hbox (17.10521pt too wide) in paragraph at lines 348--349
 
 
 [23])
-Overfull \hbox (80.48921pt too wide) in paragraph at lines 408--71
+Overfull \hbox (80.48921pt too wide) in paragraph at lines 408--67
 []\TU/THSarabunPSK(0)/m/n/12 [3] Texas In-stru-ments. ”Speech Syn-the-sis Pro-ces-sors.” [On-line]. Avail-able : http://www.ti.com/sc/does/msp/speech/in-
  []
 
@@ -737,8 +744,6 @@ Overfull \hbox (80.48921pt too wide) in paragraph at lines 408--71
 
 
 ]
-Appendix A.
-
 
 [26
 
@@ -746,14 +751,13 @@ Appendix A.
 
 [27
 
-
 ]
 
 [28]
-<images/authorbib.png, id=809, 103.13531pt x 130.98938pt>
+<images/authorbib.png, id=814, 103.13531pt x 130.98938pt>
 File: images/authorbib.png Graphic file (type png)
 <use images/authorbib.png>
-Package luatex.def Info: images/authorbib.png  used on input line 48.
+Package luatex.def Info: images/authorbib.png  used on input line 51.
 (luatex.def)             Requested size: 113.8127pt x 113.81392pt.
 
 
@@ -766,23 +770,23 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-19>
  ***********
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 5ED97DD637B98BD547D6AD0DED95B157;16045.
+(rerunfilecheck)             Checksum: FCBEFF58048EB88D1B7E65F930587CB6;16047.
 )
 
 Here is how much of LuaTeX's memory you used:
- 15933 strings out of 470133
+ 15948 strings out of 470133
  100000,794899 words of node,token memory allocated
  709 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 10 attribute, 92 glue_spec, 10 attribute_list, 2 write, 1 pdf_action nodes
-   avail lists: 1:1,2:1205,3:461,4:304,5:259,6:159,7:7018,8:26,9:757,10:22,11:641
- 43752 multiletter control sequences out of 65536+600000
- 56 fonts using 3783175 bytes
- 78i,12n,95p,941b,622s stack positions out of 10000i,1000n,20000p,200000b,200000s
+   avail lists: 1:1,2:1205,3:463,4:304,5:260,6:159,7:7192,8:26,9:757,10:22,11:656
+ 43759 multiletter control sequences out of 65536+600000
+ 54 fonts using 3618615 bytes
+ 78i,12n,95p,941b,620s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Users/gamin/AppData/Local/Microsoft/Windows/Fonts/THSarabun Italic.ttf><c:/Users/gamin/AppData/Local/Microsoft/Windows/Fonts/THSarabun.ttf><c:/Users/gamin/AppData/Local/Microsoft/Windows/Fonts/THSarabun Bold.ttf><d:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on thesis.pdf (38 pages, 171319 bytes).
+Output written on thesis.pdf (39 pages, 171900 bytes).
 
-PDF statistics: 866 PDF objects out of 1000 (max. 8388607)
- 799 compressed objects within 8 object streams
- 238 named destinations out of 1000 (max. 131072)
+PDF statistics: 872 PDF objects out of 1000 (max. 8388607)
+ 803 compressed objects within 9 object streams
+ 240 named destinations out of 1000 (max. 131072)
  681 words of extra memory for PDF output out of 10000 (max. 100000000)
 

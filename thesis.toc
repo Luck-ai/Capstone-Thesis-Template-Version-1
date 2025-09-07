@@ -1,8 +1,10 @@
+\vspace {-.5\baselineskip }\noindent \makebox [\textwidth ][r]{\bfseries Page}\par \vspace {.5\baselineskip }
 \contentsline {chapter}{Abstract}{ii}{Doc-Start}%
-\contentsline {chapter}{Acknowledgement}{iii}{chapter*.1}%
+\contentsline {chapter}{ACKNOWLEDGEMENT}{iii}{chapter*.1}%
 \contentsline {chapter}{TABLE OF CONTENTS}{vi}{chapter*.1}%
-\contentsline {chapter}{LIST OF TABLES}{vii}{chapter*.1}%
-\contentsline {chapter}{LIST OF FIGURES}{viii}{chapter*.1}%
+\contentsline {chapter}{LIST OF TABLES}{vii}{chapter*.2}%
+\contentsline {chapter}{LIST OF FIGURES}{viii}{chapter*.3}%
+\contentsline {chapter}{LIST OF ABBREVIATIONS AND SYMBOLS}{ix}{chapter*.4}%
 \contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}SIGNIFICANCE OF A THESIS}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}THE IMPORTANCE OF THE THESIS PRESENTATION PROCESS}{1}{section.1.2}%
@@ -79,7 +81,6 @@
 \contentsline {subsubsection}{\numberline {5.3.8.4}Patents}{24}{subsubsection.5.3.8.4}%
 \contentsline {subsubsection}{\numberline {5.3.8.5}Visual Materials and Other Media}{24}{subsubsection.5.3.8.5}%
 \contentsline {subsubsection}{\numberline {5.3.8.6}Electronic Media}{24}{subsubsection.5.3.8.6}%
-\contentsline {chapter}{Bibliography}{25}{subsubsection.5.3.8.6}%
-\contentsline {chapter}{\numberline {A}GUIDELINES AND PROCEDURES FOR THESIS WRITING}{26}{appendix.A}%
-\contentsline {chapter}{GUIDELINES AND PROCEDURES FOR THESIS WRITING}{27}{appendix*.5}%
-\contentsline {chapter}{AUTHOR BIOGRAPHY}{29}{appendix*.6}%
+\contentsline {chapter}{BIBLIOGRAPHY}{25}{subsubsection.5.3.8.6}%
+\contentsline {chapter}{Appendix A Guidelines and Procedures For Thesis Writing}{26}{chapter*.7}%
+\contentsline {chapter}{AUTHOR BIOGRAPHY}{29}{appendix*.8}%
