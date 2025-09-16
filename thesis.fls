@@ -75,11 +75,10 @@ INPUT d:/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 INPUT d:/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
 INPUT d:/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg
 INPUT D:/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc
-INPUT D:/texlive/2025/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc
 INPUT D:/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/thsarabun.luc
-INPUT D:/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/thsarabun-bolditalic.luc
-INPUT D:/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/thsarabun-bold.luc
-INPUT D:/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/thsarabun-italic.luc
+INPUT D:/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/thsarabunbold.luc
+INPUT D:/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/thsarabunitalic.luc
+INPUT D:/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/thsarabunbolditalic.luc
 INPUT d:/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
 INPUT d:/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
 INPUT d:/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
