@@ -47,7 +47,7 @@ This thesis uses **LuaLaTeX** and **latexmk** inside a Docker container to ensur
    ```bash
    latexmk -lualatex -pdf -jobname=myoutput thesis.tex
    ```
-
+---
 ## ⚡ Live Preview / Watch Mode
 
 Use `latexmk` in preview continuous mode (`-pvc`) to automatically recompile when the `.tex` file changes:
