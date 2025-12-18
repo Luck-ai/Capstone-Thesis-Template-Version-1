@@ -12,4 +12,7 @@
 
 - Click the build and view button to compile and view the pdf
 
+## Structure
+- All chapters have a seperate TeX file in the chapters folder
+- All images can be added in the images folder
 
