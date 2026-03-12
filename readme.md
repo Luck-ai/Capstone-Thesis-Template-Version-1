@@ -231,8 +231,6 @@ source ~/.bashrc
 
 </details>
 
----
-
 <details>
 
 <summary><b>Cambria Math Font Not Found</b></summary>
