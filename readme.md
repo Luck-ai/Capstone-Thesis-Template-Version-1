@@ -247,8 +247,6 @@ Fix:
 
 </details>
 
----
-
 # 🪟 Common Issues (Windows)
 
 <details>
@@ -270,7 +268,6 @@ Then compile again.
 
 </details>
 
----
 
 <details>
 <summary><b>Missing Package Errors</b></summary>
