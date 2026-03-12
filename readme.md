@@ -1,54 +1,319 @@
-# Thesis LaTeX Template
+# 📘 Capstone Thesis LaTeX Template
 
-This is a comprehensive LaTeX thesis template designed for captsone thesis. The template uses LuaLaTeX for modern font support and is organized for easy chapter management and content updates.
+![LaTeX](https://img.shields.io/badge/LaTeX-LuaLaTeX-blue)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-green)
+![Editor](https://img.shields.io/badge/Editor-TexStudio-orange)
 
-## Prerequisites
+A **modern LuaLaTeX thesis template** designed for **Capstone theses**.  
+The project is structured for **easy chapter editing, modular organization, and clean document management**.
 
-Before you can build and compile this thesis template, ensure you have the following software installed:
+---
 
-- **[MikTeX](https://miktex.org/download)** - A comprehensive LaTeX distribution for Windows, macOS, and Linux. This provides all the necessary LaTeX packages and compilers required for building the thesis document.
-- **[TexStudio](https://texstudio.org/#download)** - An integrated writing environment for creating LaTeX documents. It provides syntax highlighting, auto-completion, and integrated PDF viewing.
-- **[Git](https://git-scm.com/download)** - Version control system (optional, but recommended for managing the thesis versions)
+# ✨ Features
 
-## Setup Instructions
+- 📚 Modular **chapter-based structure**
+- 🔤 **LuaLaTeX font support** for modern typography
+- 🖼 Organized **image and asset management**
+- 📖 Integrated **BibTeX citation system**
+- ⚡ Easy compilation with **TexStudio**
+- 🧩 Separate **configuration and content**
 
-Follow these step-by-step instructions to set up your thesis compilation environment:
+---
 
-1. **Open TexStudio** and open the **thesis.tex** file from the root of the repository folder
-2. **Configure the LaTeX Compiler:**
-   - Navigate to the **Options** menu
-   - Click on **Configure TexStudio**
-   - In the **Build** tab, set the default compiler to **LuaLaTeX** (this enables better font rendering and modern LaTeX features)
-3. **(Optional) Enable Auto-Compilation:**
-   - In the **Internal PDF Viewer** tab, enable the "Auto Recompile on Save" option
-   - This will automatically compile your thesis whenever you make changes and save a file
-4. **Compile and View:**
-   - Click the **Build & View** button (or press F5) to compile the thesis and open the generated PDF
-   - LaTeX will process all chapters and generate the final thesis.pdf file
+# 📦 Requirements
 
-## Demo
+Install the following software before compiling the thesis.
 
-For a quick overview of the thesis template and its output, watch the provided demo video:
-- **[Demo Video](./demo.mp4)** - A video walkthrough showing how the template works, how to compile it, and the final PDF output
+| Software | Purpose |
+|--------|--------|
+| **[MiKTeX](https://miktex.org/download)** | LaTeX distribution |
+| **[TexStudio](https://texstudio.org/#download)** | LaTeX editor |
+| **[Git](https://git-scm.com/download)** *(optional)* | Version control |
 
-## Project Structure
+---
 
-The thesis template is organized as follows:
+# ⚙️ Setup Instructions
 
-- **thesis.tex** - Main thesis file (start here). Contains document setup, preamble, and includes all chapters and front matter
-- **chapters/** - Contains all thesis chapter files
-- **images/** - Folder for all images, figures, and graphics used throughout the thesis
-- **fonts/** - Custom font files for the thesis
-- **references.bib** - Bibliography/References database in BibTeX format
-- **abbreviations.tex** - Common abbreviations and acronyms used in the thesis
-- **env.tex** - Environment and package configuration settings
-- **thesis.pdf** - Compiled output PDF document
+## 1️⃣ Open the Project
 
-## How to Add Content
+Open **TexStudio** and load:
 
-- **Add New Chapters:** Create a new .tex file in the chapters folder and include it in thesis.tex using `\input{chapters/your_chapter.tex}`
-- **Add Images:** Place images in the images folder and reference them in your chapters using LaTeX graphics commands
-- **Update References:** Add citations to the references.bib file and cite them in your document using `\cite{citation_key}`
-- **Modify Abbreviations:** Edit abbreviations.tex to add or update terms and their acronyms
+```
+thesis.tex
+```
 
+This is the **main document file**.
+
+---
+
+## 2️⃣ Configure Compiler
+
+In **TexStudio**:
+
+```
+Options → Configure TexStudio → Build
+```
+
+Set:
+
+```
+Default Compiler → LuaLaTeX
+```
+
+LuaLaTeX provides:
+
+- better font rendering
+- full Unicode support
+- modern LaTeX features
+
+---
+
+## 3️⃣ Enable Auto Compilation (Optional)
+
+```
+Options → Configure TexStudio → Internal PDF Viewer
+```
+
+Enable:
+
+```
+Auto Recompile on Save
+```
+
+This recompiles the document automatically when saving.
+
+---
+
+## 4️⃣ Compile the Thesis
+
+Press:
+
+``` text
+F5 (Build & View)
+```
+
+This generates:
+
+``` text
+thesis.pdf
+```
+
+---
+
+# 📂 Project Structure
+
+```
+thesis-template/
+│
+├── thesis.tex           # Main thesis file
+├── env.tex              # Environment configuration
+├── abbreviations.tex    # Acronyms
+├── references.bib       # Bibliography
+│
+├── chapters/            # Thesis chapters
+│
+├── images/              # Figures and graphics
+│
+├── fonts/               # Custom fonts
+│
+└── thesis.pdf           # Compiled document
+```
+
+---
+
+# ✍️ Adding Content
+
+## Add a Chapter
+
+Create a new file in:
+
+```
+chapters/
+```
+
+Example:
+
+```
+chapters/introduction.tex
+```
+
+Include it in `thesis.tex`:
+
+```latex
+\input{chapters/introduction.tex}
+```
+
+---
+
+## Add Images
+
+Place images inside:
+
+```
+images/
+```
+
+Example usage:
+
+```latex
+\includegraphics[width=\linewidth]{images/example.png}
+```
+
+---
+
+## Add References
+
+Add BibTeX entries to:
+
+```
+references.bib
+```
+
+Example:
+
+```bibtex
+@article{example2024,
+  title={Example Paper},
+  author={Author, A},
+  year={2024}
+}
+```
+
+Cite using:
+
+```latex
+\cite{example2024}
+```
+
+---
+
+## Modify Abbreviations
+
+Edit:
+
+```
+abbreviations.tex
+```
+
+Add or update acronyms as needed.
+
+---
+
+# 🧪 Debugging Compilation Errors
+
+If **TexStudio fails to build**, compile using the **command line** to see the exact LaTeX error.
+
+Open a terminal in the project directory and run:
+
+```bash
+lualatex thesis.tex
+```
+
+Command line compilation provides **full error output**, which makes it easier to diagnose problems such as:
+
+- missing packages
+- font errors
+- syntax errors
+- incorrect file paths
+
+---
+
+# 🐧 Common Issues (Linux)
+
+<details>
+<summary><b>MiKTeX Path Not Set</b></summary>
+
+If compilation fails, MiKTeX binaries may not be in your PATH.
+
+Check in **MiKTeX Console** for warnings about missing PATH.
+
+Add the path to `.bashrc`:
+
+```bash
+export PATH="$PATH:$HOME/bin"
+```
+
+Reload:
+
+```bash
+source ~/.bashrc
+```
+
+</details>
+
+---
+
+<details>
+<summary><b>Cambria Math Font Not Found</b></summary>
+
+LuaLaTeX requires the **Cambria Math font**.
+
+Fix:
+
+1. Download **Cambria Math**
+2. Install the `.ttf` font
+3. Open the file and click **Install**
+
+</details>
+
+---
+
+# 🪟 Common Issues (Windows)
+
+<details>
+<summary><b>Compilation Fails Due to Missing Packages</b></summary>
+
+Open **MiKTeX Console**
+
+```
+Settings → Package Installation
+```
+
+Set:
+
+```
+Install missing packages on-the-fly → Always
+```
+
+Then compile again.
+
+</details>
+
+---
+
+<details>
+<summary><b>Missing Package Errors</b></summary>
+
+If you see errors like:
+
+```
+File `kvoptions.sty' not found
+File `pdfescape.sty' not found
+```
+
+Update packages in:
+
+```
+MiKTeX Console → Updates
+```
+
+Then rebuild the document.
+
+</details>
+
+---
+
+# 💡 Tips
+
+- Always compile using **LuaLaTeX**
+- Keep chapters modular
+- Store images inside `images/`
+- Avoid modifying `env.tex` unless necessary
+
+---
+
+# 📜 License
+
+This template is intended for **academic use**.  
+Feel free to modify it for your thesis or research work.
 
