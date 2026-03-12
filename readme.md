@@ -24,10 +24,10 @@ The project is structured for **easy chapter editing, modular organization, and 
 
 Install the following software before compiling the thesis.
 
-| Software | Purpose |
-|--------|--------|
+| Software | Purpose | Note
+|--------|--------|--------
 | **[MiKTeX](https://miktex.org/download)** | LaTeX distribution |
-| **[TexStudio](https://texstudio.org/#download)** | LaTeX editor |
+| **[TexStudio](https://texstudio.org/#download)** | LaTeX editor | On linux ` sudo apt install texstudio `
 | **[Git](https://git-scm.com/download)** *(optional)* | Version control |
 
 ---
