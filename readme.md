@@ -18,7 +18,6 @@ The project is structured for **easy chapter editing, modular organization, and 
 - ⚡ Easy compilation with **TexStudio**
 - 🧩 Separate **configuration and content**
 
----
 
 # 📦 Requirements
 
@@ -30,7 +29,7 @@ Install the following software before compiling the thesis.
 | **[TexStudio](https://texstudio.org/#download)** | LaTeX editor | On linux ` sudo apt install texstudio `
 | **[Git](https://git-scm.com/download)** *(optional)* | Version control |
 
----
+
 
 # ⚙️ Setup Instructions
 
@@ -44,7 +43,6 @@ thesis.tex
 
 This is the **main document file**.
 
----
 
 ## 2️⃣ Configure Compiler
 
@@ -66,7 +64,7 @@ LuaLaTeX provides:
 - full Unicode support
 - modern LaTeX features
 
----
+
 
 ## 3️⃣ Enable Auto Compilation (Optional)
 
@@ -82,7 +80,6 @@ Auto Recompile on Save
 
 This recompiles the document automatically when saving.
 
----
 
 ## 4️⃣ Compile the Thesis
 
@@ -98,7 +95,6 @@ This generates:
 thesis.pdf
 ```
 
----
 
 # 📂 Project Structure
 
@@ -119,7 +115,6 @@ thesis-template/
 └── thesis.pdf           # Compiled document
 ```
 
----
 
 # ✍️ Adding Content
 
@@ -143,7 +138,6 @@ Include it in `thesis.tex`:
 \input{chapters/introduction.tex}
 ```
 
----
 
 ## Add Images
 
@@ -159,7 +153,6 @@ Example usage:
 \includegraphics[width=\linewidth]{images/example.png}
 ```
 
----
 
 ## Add References
 
@@ -185,7 +178,6 @@ Cite using:
 \cite{example2024}
 ```
 
----
 
 ## Modify Abbreviations
 
@@ -197,7 +189,6 @@ abbreviations.tex
 
 Add or update acronyms as needed.
 
----
 
 # 🧪 Debugging Compilation Errors
 
@@ -216,7 +207,6 @@ Command line compilation provides **full error output**, which makes it easier t
 - syntax errors
 - incorrect file paths
 
----
 
 # 🐧 Common Issues (Linux)
 
@@ -244,6 +234,7 @@ source ~/.bashrc
 ---
 
 <details>
+
 <summary><b>Cambria Math Font Not Found</b></summary>
 
 LuaLaTeX requires the **Cambria Math font**.
@@ -301,7 +292,7 @@ Then rebuild the document.
 
 </details>
 
----
+
 
 # 💡 Tips
 
@@ -310,7 +301,7 @@ Then rebuild the document.
 - Store images inside `images/`
 - Avoid modifying `env.tex` unless necessary
 
----
+
 
 # 📜 License
 
