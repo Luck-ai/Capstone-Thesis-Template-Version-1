@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2026.4.3)  4 APR 2026 18:22
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2026.4.3)  4 APR 2026 18:44
  restricted system commands enabled.
  file:line:error style messages enabled.
 **"/home/lucky/KMITL/Scholarship/Capstone Work/version1/thesis"
@@ -833,8 +833,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip124
 )
-Package hyperref Info: Option `unicode' set `true' on input line 220.
-Package hyperref Info: Option `colorlinks' set `true' on input line 220.
+Package hyperref Info: Option `unicode' set `true' on input line 221.
+Package hyperref Info: Option `colorlinks' set `true' on input line 221.
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
@@ -1002,44 +1002,42 @@ Overfull \hbox (1.84pt too wide) detected at line 15
 [4
 
 ]
-Overfull \hbox (1.84pt too wide) detected at line 32
+Overfull \hbox (1.84pt too wide) detected at line 28
 \TU/THSarabun.ttf(0)/m/n/16 CHAP-TER 3 
  []
 
 
-Overfull \hbox (1.84pt too wide) detected at line 45
+Overfull \hbox (1.84pt too wide) detected at line 44
 \TU/THSarabun.ttf(0)/m/n/16 CHAP-TER 4 
  []
 
-[5]
-Overfull \hbox (1.84pt too wide) detected at line 61
+
+Overfull \hbox (1.84pt too wide) detected at line 47
 \TU/THSarabun.ttf(0)/m/n/16 CHAP-TER 5 
  []
 
-
-Overfull \hbox (1.84pt too wide) detected at line 64
-\TU/THSarabun.ttf(0)/m/n/16 CHAP-TER 6 
- []
-
-[6])
+[5] [6])
 \tf@toc=\write5
 
 \openout5 = thesis.toc
- (./chapters/frontmatter.tex [7] (./thesis.lot)
+ [7] [8
+
+] (./chapters/frontmatter.tex (./thesis.lot)
 \tf@lot=\write6
 
 \openout6 = thesis.lot
- [8
+ [9
+
 
 
 ] (./thesis.lof)
 \tf@lof=\write7
 
 \openout7 = thesis.lof
- [9
+ [10
 
 
-]) [10
+]) [11
 
 
 ] (./chapters/ch1_introduction.tex
@@ -1145,7 +1143,7 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-4.69998pt}.
 
 [13]
-<images/sampleimg.png, id=806, 126.4725pt x 134.75343pt>
+<images/sampleimg.png, id=687, 126.4725pt x 134.75343pt>
 File: images/sampleimg.png Graphic file (type png)
 <use images/sampleimg.png>
 Package luatex.def Info: images/sampleimg.png  used on input line 99.
@@ -1425,7 +1423,7 @@ Package fancyhdr Warning: \headheight is too small (14.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-4.69998pt}.
 
 [39]
-<images/authorbib.png, id=1031, 103.13531pt x 130.98938pt>
+<images/authorbib.png, id=866, 103.13531pt x 130.98938pt>
 File: images/authorbib.png Graphic file (type png)
 <use images/authorbib.png>
 Package luatex.def Info: images/authorbib.png  used on input line 56.
@@ -1438,209 +1436,27 @@ Package luatex.def Info: images/authorbib.png  used on input line 56.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: E1C228381C300A32F406681A0FE159D8;19397
-(rerunfilecheck)             After:  BBD707E6E38B78D1F372BE9550AD8B88;15606.
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: BBD707E6E38B78D1F372BE9550AD8B88;15606.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 
 \openout1 = thesis.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 27930 strings out of 476553
+ 27830 strings out of 476553
  125161,1977958 words of node,token memory allocated
- 798 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 14 attribute, 103 glue_spec, 14 attribute_list, 2 write, 4 pdf_action nodes
-   avail lists: 1:1,2:927,3:354,4:232,5:211,6:120,7:6931,8:26,9:595,10:24,11:561
- 49086 multiletter control sequences out of 65536+600000
- 71 fonts using 19899623 bytes
+ 788 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 13 attribute, 103 glue_spec, 13 attribute_list, 2 write, 3 pdf_action nodes
+   avail lists: 1:1,2:929,3:359,4:232,5:219,6:121,7:6931,8:26,9:595,10:24,11:561
+ 49069 multiletter control sequences out of 65536+600000
+ 71 fonts using 19899783 bytes
  84i,15n,92p,946b,979s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-warning  (pdf backend): unreferenced destination with name 'figure.caption.113'
-
-warning  (pdf backend): unreferenced destination with name 'table.caption.111'
-
-warning  (pdf backend): unreferenced destination with name 'appendix*.226'
-
-warning  (pdf backend): unreferenced destination with name 'chapter*.213'
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.212'
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.211'
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.210'
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.209'
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.208'
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.207'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.206'
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.205'
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.204'
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.203'
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.202'
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.201'
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.200'
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.199'
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.198'
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.197'
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.196'
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.195'
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.194'
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.193'
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.192'
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.191'
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.190'
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.189'
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.188'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.181'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.178'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.170'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.167'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.163'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.159'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.146'
-
-warning  (pdf backend): unreferenced destination with name 'section.145'
-
-warning  (pdf backend): unreferenced destination with name 'section.140'
-
-warning  (pdf backend): unreferenced destination with name 'section.135'
-
-warning  (pdf backend): unreferenced destination with name 'chapter.134'
-
-warning  (pdf backend): unreferenced destination with name 'section.133'
-
-warning  (pdf backend): unreferenced destination with name 'section.123'
-
-warning  (pdf backend): unreferenced destination with name 'chapter.122'
-
-warning  (pdf backend): unreferenced destination with name 'section.121'
-
-warning  (pdf backend): unreferenced destination with name 'section.120'
-
-warning  (pdf backend): unreferenced destination with name 'section.119'
-
-warning  (pdf backend): unreferenced destination with name 'section.117'
-
-warning  (pdf backend): unreferenced destination with name 'section.116'
-
-warning  (pdf backend): unreferenced destination with name 'section.115'
-
-warning  (pdf backend): unreferenced destination with name 'section.114'
-
-warning  (pdf backend): unreferenced destination with name 'section.112'
-
-warning  (pdf backend): unreferenced destination with name 'section.110'
-
-warning  (pdf backend): unreferenced destination with name 'section.109'
-
-warning  (pdf backend): unreferenced destination with name 'section.107'
-
-warning  (pdf backend): unreferenced destination with name 'section.105'
-
-warning  (pdf backend): unreferenced destination with name 'section.104'
-
-warning  (pdf backend): unreferenced destination with name 'chapter.103'
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.102'
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.101'
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.100'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.99'
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.98'
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.92'
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.83'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.82'
-
-warning  (pdf backend): unreferenced destination with name 'section.69'
-
-warning  (pdf backend): unreferenced destination with name 'section.65'
-
-warning  (pdf backend): unreferenced destination with name 'section.56'
-
-warning  (pdf backend): unreferenced destination with name 'section.45'
-
-warning  (pdf backend): unreferenced destination with name 'chapter.44'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.40'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.39'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.36'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.30'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.28'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.27'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.26'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.25'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.24'
-
-warning  (pdf backend): unreferenced destination with name 'section.23'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.22'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.21'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.20'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.19'
 </home/lucky/.local/share/fonts/cambria.ttf><./THSarabunItalic.ttf><./THSarabun.ttf><./THSarabunBold.ttf>
-Output written on thesis.pdf (52 pages, 155669 bytes).
+Output written on thesis.pdf (53 pages, 151306 bytes).
 
-PDF statistics: 1082 PDF objects out of 1200 (max. 8388607)
- 1001 compressed objects within 11 object streams
- 337 named destinations out of 1000 (max. 131072)
- 809 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 911 PDF objects out of 1000 (max. 8388607)
+ 831 compressed objects within 9 object streams
+ 254 named destinations out of 1000 (max. 131072)
+ 673 words of extra memory for PDF output out of 10000 (max. 100000000)
 

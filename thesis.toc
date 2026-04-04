@@ -2,9 +2,9 @@
 \contentsline {chapter}{ABSTRACT IN ENGLISH}{ii}{Doc-Start}%
 \contentsline {chapter}{ACKNOWLEDGEMENT}{iii}{chapter*.1}%
 \contentsline {chapter}{TABLE OF CONTENTS}{vii}{chapter*.1}%
-\contentsline {chapter}{LIST OF TABLES}{viii}{chapter*.2}%
-\contentsline {chapter}{LIST OF FIGURES}{ix}{chapter*.3}%
-\contentsline {chapter}{LIST OF ABBREVIATIONS AND SYMBOLS}{x}{chapter*.4}%
+\contentsline {chapter}{LIST OF TABLES}{ix}{chapter*.2}%
+\contentsline {chapter}{LIST OF FIGURES}{x}{chapter*.3}%
+\contentsline {chapter}{LIST OF ABBREVIATIONS AND SYMBOLS}{xi}{chapter*.4}%
 \contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.5}%
 \contentsline {section}{\numberline {1.1}SIGNIFICANCE OF A THESIS}{1}{section.6}%
 \contentsline {section}{\numberline {1.2}THE IMPORTANCE OF THE THESIS PRESENTATION PROCESS}{1}{section.12}%
