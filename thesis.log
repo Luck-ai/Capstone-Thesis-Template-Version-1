@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2026.4.3)  4 APR 2026 18:44
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2026.4.3)  4 APR 2026 19:00
  restricted system commands enabled.
  file:line:error style messages enabled.
 **"/home/lucky/KMITL/Scholarship/Capstone Work/version1/thesis"
@@ -1453,7 +1453,7 @@ Here is how much of LuaTeX's memory you used:
  71 fonts using 19899783 bytes
  84i,15n,92p,946b,979s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/lucky/.local/share/fonts/cambria.ttf><./THSarabunItalic.ttf><./THSarabun.ttf><./THSarabunBold.ttf>
-Output written on thesis.pdf (53 pages, 151306 bytes).
+Output written on thesis.pdf (53 pages, 151293 bytes).
 
 PDF statistics: 911 PDF objects out of 1000 (max. 8388607)
  831 compressed objects within 9 object streams
