@@ -1,0 +1,296 @@
+\chapter{RELATED THEORIES}
+
+\section{PART 1: ROBOT DESIGN}
+
+\subsection{Biomechanics of Human and Primate Locomotion}
+
+The human leg is a complex musculoskeletal system optimized for upright bipedal locomotion, characterized by large strides, energy efficiency, and high degrees of freedom (DoF). Key joint motions include:
+\begin{itemize}
+    \item Knee flexion and extension: 1 DoF
+    \item Ankle dorsiflexion and plantarflexion: 1 DoF
+    \item Ankle inversion and eversion: 1 DoF
+\end{itemize}
+
+These combined movements enable dynamic balance, propulsion, and terrain adaptability. In contrast, Rhesus macaques exhibit quadrupedal locomotion with crouched hind limb configurations, allowing for enhanced agility, stability, and climbing ability. Their hind limbs retain a high range of joint mobility, enabling postures that humans cannot replicate efficiently. Designing a leg system to support both movement paradigms requires flexible kinematic design and control strategies that emulate the shared evolutionary structure of these primates while accommodating divergent locomotive goals.
+
+\subsection{Kinematic Theory of Humanoid Leg Motion}
+
+The motion of the humanoid leg is governed by the principles of robotic kinematics, which describe how actuator commands translate into limb movement. Specifically, the system must solve both forward kinematics and inverse kinematics problems to control foot placement, posture, and dynamic movement in both bipedal and quadrupedal configurations.
+
+\subsubsection*{Forward Kinematics}
+
+Forward kinematics involves computing the end-effector position and orientation given a set of known joint angles. This is essential for real-time gait evaluation, motion planning, and simulation (Figure 2.1). For each leg, a serial kinematic chain is defined, incorporating:
+\begin{itemize}
+    \item Hip: 3 DoF
+    \item Knee: 1 DoF
+    \item Ankle: 2 DoF
+\end{itemize}
+
+By applying transformation matrices derived from the Denavit-Hartenberg (D-H) parameters [4] (Table 2.1), the foot position can be resolved in global or local reference frames. These calculations are critical for trajectory generation and stability control, particularly during dynamic gait transitions.
+
+\subsection{Thumb Mechanic in Compact Bionic Hands}
+
+\subsubsection*{Background}
+
+The design of the thumb in compact bionic hands aims to mimic the functionality of the human hand while optimizing control, efficiency, and adaptability. Mechanical components such as torsional springs, electric guitar string-based actuation, bevel gear mechanisms, and rack-and-pinion systems play a critical role in achieving anthropomorphic motion and improved grasping stability.
+
+\subsubsection*{Benefits of Torsional Springs}
+
+Torsional springs are widely used in prosthetic and robotic hands to provide passive extension, reducing the need for additional actuators [9]. The advantages include:
+\begin{itemize}
+    \item Energy efficiency: Torsional springs store and release energy efficiently, reducing power consumption.
+    \item Improved finger retraction: Smooth retraction during grasping improves adaptability to different grip styles.
+    \item Enhanced durability: Passive elastic behavior minimizes mechanical wear and extends lifespan.
+\end{itemize}
+
+\subsubsection*{Electric Guitar String-Based Actuation (String/Cable/Tendon Mechanism)}
+
+Tendon (electric guitar string)-driven actuation is commonly implemented in robotic hands due to its ability to mimic the human musculoskeletal system [25, 9]. Benefits include:
+\begin{itemize}
+    \item Lightweight and compact design.
+    \item Smooth and natural motion.
+\end{itemize}
+
+\subsubsection*{Bevel Gear Mechanism for Opposable Thumb}
+
+The implementation of bevel gears in the opposable thumb mechanism enhances precision and versatility [10, 9]. Benefits include:
+\begin{itemize}
+    \item Coupling of multi-axis motion (abduction-adduction and pronation-supination).
+    \item Increased grasp stability.
+    \item Compact mechanical design compared with traditional multi-motor systems.
+\end{itemize}
+
+\subsubsection*{Rack-and-Pinion Mechanism for Motion Control}
+
+The rack-and-pinion system is a key component in achieving precise motion control in robotic hands [10, 9]. Benefits include:
+\begin{itemize}
+    \item High precision and responsiveness.
+    \item Robustness and reliability.
+    \item Force amplification for effective grip strength.
+\end{itemize}
+
+\subsection{Material}
+
+Material selection is a critical aspect of humanoid robot design, as it directly affects structural strength, weight, durability, manufacturability, and thermal performance. In this project, multiple materials, including carbon-based composites, metals, and thermoplastics, were evaluated (Table 2.2). Figure 2.4 illustrates a strength-to-weight comparison of selected materials, justifying the use of high-strength composites in primary load-bearing structures to minimize inertial loads.
+
+Structural observations from the source include:
+\begin{itemize}
+    \item Metals and carbon composites provide stiffness for joint alignment and load-bearing structures.
+    \item Polyurethane (PU) is used as a functional interface for traction and shock absorption.
+    \item Thermoplastics are used for non-structural components where flexibility and manufacturability are prioritized.
+\end{itemize}
+
+\section{PART 2: MANUFACTURING PROCESS}
+
+\subsection{Precision Machining in Chassis Fabrication}
+
+Precision machining refers to manufacturing processes that remove material from a workpiece to achieve tight tolerances and high surface quality. In this project, CNC machining and lathe operations were utilized in fabricating Hanumanoid robot components.
+
+\subsubsection*{CNC Machining}
+
+CNC machining is an automated process using pre-programmed software to control machine tools. It was applied to fabricate components from carbon fiber plates. Advantages include:
+\begin{itemize}
+    \item High dimensional accuracy (reported tolerance up to $\pm 0.01$ mm).
+    \item Repeatability for symmetric parts.
+    \item Capability for complex geometries and lightweight structures.
+\end{itemize}
+
+For carbon fiber machining, tool selection, cutting speed, and dust extraction are important due to material abrasiveness and fine particle hazards.
+
+\subsubsection*{Lathe Machining}
+
+Lathe machining was used to fabricate cylindrical components such as aluminum and stainless-steel shafts for rotational joints. Key benefits include:
+\begin{itemize}
+    \item High concentricity.
+    \item Smooth surface finish.
+    \item Precision diameter control.
+    \item Effective use of material-specific strengths.
+\end{itemize}
+
+\subsection{Additive Manufacturing}
+
+Additive manufacturing (3D printing) builds parts layer by layer from 3D model data. In this project, Digital Light Processing (DLP) and Fused Deposition Modeling (FDM) were employed.
+
+\subsubsection*{Digital Light Processing}
+
+DLP uses a digital projector to cure photopolymer resin layer by layer. It was used for custom gears and a semi-transparent face cover. Benefits include:
+\begin{itemize}
+    \item High precision and resolution.
+    \item Superior surface finish.
+    \item Useful optical properties for semi-transparent parts.
+    \item Rapid prototyping capability.
+\end{itemize}
+
+\subsubsection*{Fused Deposition Modeling}
+
+FDM extrudes thermoplastic material layer by layer. It was used for shell/armor components and molds for rubber casting and carbon forging. Benefits include:
+\begin{itemize}
+    \item Cost-effective fabrication.
+    \item Lightweight internal infill options.
+    \item Strong design flexibility.
+    \item Ease of reprinting and replacement.
+\end{itemize}
+
+\subsection{Laser-Based Fabrication}
+
+Laser-based methods use focused light for cutting or joining materials. In this project, laser cutting and laser welding were applied, especially for Aluminum 5083 leg structures.
+
+\subsubsection*{Laser Cutting}
+
+Laser cutting enables intricate sheet geometries with minimal mechanical contact. Reported benefits include:
+\begin{itemize}
+    \item High precision and clean edges.
+    \item Capability for complex lightweight structures.
+    \item Minimal mechanical stress on thin plates.
+    \item Efficient material utilization via nesting.
+\end{itemize}
+
+Considerations include heat-affected zones and aluminum reflectivity requirements.
+
+\subsubsection*{Laser Welding}
+
+Laser welding was used to join aluminum plates in the robot framework. Compared to full CNC-from-billet approaches, benefits include:
+\begin{itemize}
+    \item Improved cost efficiency.
+    \item Reduced material waste.
+    \item Lower distortion from localized heat input.
+    \item Sufficiently strong joints for dynamic robotic loads.
+\end{itemize}
+
+\subsection{Formative Manufacturing}
+
+Formative manufacturing shapes material using heat and/or pressure in a mold. In this project, carbon fiber forging and rubber casting were used.
+
+\subsubsection*{Carbon Fiber Forging}
+
+Carbon fiber forging layers dry carbon fiber with resin and compresses it to create rigid, lightweight, and durable structures. Source benefits include:
+\begin{itemize}
+    \item High strength-to-weight ratio.
+    \item Suitability for complex geometries.
+    \item Corrosion resistance.
+\end{itemize}
+
+\subsubsection*{Rubber Casting}
+
+Polyurethane rubber casting was used for the robot foot sole. Benefits include:
+\begin{itemize}
+    \item Impact mitigation through elastic behavior.
+    \item Traction and locomotion stability.
+    \item Vibration damping for IMU stability.
+    \item Custom tread geometry.
+\end{itemize}
+
+\subsection{Mechanical Fastening}
+
+Mechanical fastening methods were used to create robust and maintainable assemblies.
+
+\subsubsection*{Interference Fit}
+
+Interference (press) fit is a method where components are designed with slight dimensional overlap for a tight joint. Benefits include:
+\begin{itemize}
+    \item High-strength connection.
+    \item Vibration resistance.
+    \item No additional hardware.
+    \item Precision alignment.
+\end{itemize}
+
+\subsubsection*{Tapping}
+
+Tapping creates internal threads in drilled holes for screw/bolt fastening. Benefits include:
+\begin{itemize}
+    \item Reliable mechanical fastening.
+    \item Easy assembly/disassembly.
+    \item Precision fit and load distribution.
+    \item Compatibility with standard hardware.
+\end{itemize}
+
+\section{PART 3: REINFORCEMENT LEARNING}
+
+\subsection{Fundamentals of Reinforcement Learning}
+
+Reinforcement Learning (RL) describes an agent interacting with an environment by selecting actions to maximize cumulative reward. The discounted return is:
+\begin{equation}
+G_t = \sum_{k=0}^{\infty} \gamma^k r_{t+k+1}
+\end{equation}
+
+The agent seeks an optimal policy $\pi^*$ maximizing expected return. The state-value and action-value functions are:
+\begin{equation}
+V^{\pi}(s) = \mathbb{E}_{\pi}[G_t \mid S_t = s]
+\end{equation}
+\begin{equation}
+Q^{\pi}(s,a) = \mathbb{E}_{\pi}[G_t \mid S_t = s, A_t = a]
+\end{equation}
+
+These satisfy Bellman recursive relations and form the basis of iterative learning algorithms [23].
+
+\subsubsection*{Policy Gradient and Actor-Critic Architecture}
+
+Policy gradient methods directly optimize a parameterized policy $\pi_\theta(a\mid s)$, which is suitable for high-dimensional continuous control [24]. Actor-Critic methods reduce gradient variance by training:
+\begin{enumerate}
+    \item Actor: policy network $\pi_\theta(a\mid s)$.
+    \item Critic: value network $V_\phi(s)$ for action evaluation.
+\end{enumerate}
+
+This architecture is effective for simulation training with privileged data while learning deployable policies from realistic noisy observations [13].
+
+\subsection{Deep Reinforcement Learning for Continuous Control}
+
+Traditional RL methods struggle with high-dimensional continuous spaces. DRL uses neural networks as non-linear approximators [17]. Value-based methods like DQN are effective in discrete spaces, but continuous control generally relies on actor-critic methods such as DDPG [14] and SAC [7].
+
+\subsubsection*{Proximal Policy Optimization (PPO)}
+
+PPO [21] is a first-order approach inspired by TRPO [20], improving training stability while lowering computational cost. Define probability ratio:
+\begin{equation}
+r_t(\theta) = \frac{\pi_\theta(a_t\mid s_t)}{\pi_{\theta_{\text{old}}}(a_t\mid s_t)}
+\end{equation}
+
+With advantage estimate $\hat{A}_t$, PPO optimizes the clipped objective:
+\begin{equation}
+L^{\text{CLIP}}(\theta) = \hat{\mathbb{E}}_t\left[\min\left(r_t(\theta)\hat{A}_t,\;\text{clip}(r_t(\theta), 1-\epsilon, 1+\epsilon)\hat{A}_t\right)\right]
+\end{equation}
+
+The clipping mechanism prevents destructive policy updates and helps retain stable balancing behaviors in high-DoF locomotion.
+
+\subsection{Sim-to-Real Transfer Techniques}
+
+\subsubsection*{Implicit vs Explicit Actuator Models}
+
+For RL simulation, actuator modeling strongly affects transfer to real hardware. Isaac Lab provides implicit and explicit paradigms.
+
+Implicit actuator models delegate PD control to the physics solver (e.g., PhysX), offering strong numerical stability and accurate continuous-time behavior. However, internal torque realization can obscure actual applied forces.
+
+Explicit actuator models compute control outside the solver at discrete steps, matching real embedded controller loops. To model hardware latency, delayed PD approaches buffer actions and apply commands with randomized lag bounds, improving robustness to communication and processing delays.
+
+\subsection{PART 4: SOFTWARE FRAMEWORKS AND SIMULATION ENVIRONMENTS}
+
+This part summarizes the middleware and simulation stack used to bridge RL policy training and hardware deployment.
+
+\subsubsection*{Robot Operating System 2 (ROS 2) Architecture}
+
+ROS 2 uses DDS-based communication for real-time distributed systems [15]. Notable concepts include:
+\begin{itemize}
+    \item Quality of Service (QoS) tuning for latency/reliability trade-offs.
+    \item Standardized message interfaces, e.g., joint states for position/velocity/effort.
+\end{itemize}
+
+\subsubsection*{The ros2\_control Framework}
+
+ros2\_control [5] standardizes interaction between controllers and hardware layers. The real-time loop follows:
+\begin{enumerate}
+    \item read(): fetch hardware state.
+    \item update(): compute control commands.
+    \item write(): transmit commands to actuators.
+\end{enumerate}
+
+Lifecycle transitions such as initialization, configuration, and activation support safe startup.
+
+\subsubsection*{NVIDIA Isaac Sim and the PhysX 5 Engine}
+
+Isaac Sim supports high-fidelity simulation for RL training [18]. Core points include:
+\begin{itemize}
+    \item PhysX 5 for articulated rigid-body dynamics and contact.
+    \item Decoupled physics step and rendering step.
+    \item Python API and Articulation abstraction for efficient state/action tensor interfaces.
+\end{itemize}
+
+Figure 2.5 in the source illustrates this architecture.
