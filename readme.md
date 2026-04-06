@@ -1,7 +1,7 @@
 # 📘 Capstone Thesis LaTeX Template
 
 ![LaTeX](https://img.shields.io/badge/LaTeX-LuaLaTeX-blue)
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-green)
+![Platform](https://img.shields.io/badge/platform-windows%20|%20macos%20|%20linux-green)
 ![Editor](https://img.shields.io/badge/Editor-TexStudio-orange)
 
 A **modern LuaLaTeX thesis template** designed for **Capstone theses**.  
@@ -200,6 +200,9 @@ Open a terminal in the project directory and run:
 
 ```bash
 lualatex thesis.tex
+biber thesis
+lualatex thesis.tex
+lualatex thesis.tex
 ```
 
 Command line compilation provides **full error output**, which makes it easier to diagnose problems such as:
@@ -251,8 +254,6 @@ Fix:
 
 ---
 
-# 🪟 Common Issues
-
 <details>
 <summary><b>Compilation Fails Due to Missing Packages</b></summary>
 
@@ -294,6 +295,8 @@ Then rebuild the document.
 
 </details>
 
+---
+
 <details>
 <summary><b>Bibliography Compilation Errors</b></summary>
 
@@ -321,6 +324,8 @@ lualatex thesis.tex
 lualatex thesis.tex
 ```
 </details>
+
+---
 
 # 💡 Tips
 
