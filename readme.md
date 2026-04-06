@@ -14,7 +14,7 @@ The project is structured for **easy chapter editing, modular organization, and 
 - 📚 Modular **chapter-based structure**
 - 🔤 **LuaLaTeX font support** for modern typography
 - 🖼 Organized **image and asset management**
-- 📖 Integrated **BibTeX citation system**
+- 📖 Integrated **Biber citation system**
 - ⚡ Easy compilation with **TexStudio**
 - 🧩 Separate **configuration and content**
 
@@ -56,6 +56,7 @@ Set:
 
 ```
 Default Compiler → LuaLaTeX
+Default Bibliography Tool → Biber
 ```
 
 LuaLaTeX provides:
@@ -64,6 +65,7 @@ LuaLaTeX provides:
 - full Unicode support
 - modern LaTeX features
 
+Biber is used for bibliography management.
 
 
 ## 3️⃣ Enable Auto Compilation (Optional)
@@ -208,10 +210,10 @@ Command line compilation provides **full error output**, which makes it easier t
 - incorrect file paths
 
 
-# 🐧 Common Issues (Linux)
+# 🐧 Common Issues 
 
 <details>
-<summary><b>MiKTeX Path Not Set</b></summary>
+<summary><b>MiKTeX Path Not Set (Linux)</b></summary>
 
 If compilation fails, MiKTeX binaries may not be in your PATH.
 
@@ -249,7 +251,7 @@ Fix:
 
 ---
 
-# 🪟 Common Issues (Windows)
+# 🪟 Common Issues
 
 <details>
 <summary><b>Compilation Fails Due to Missing Packages</b></summary>
@@ -292,7 +294,33 @@ Then rebuild the document.
 
 </details>
 
+<details>
+<summary><b>Bibliography Compilation Errors</b></summary>
 
+If bibliography fails to compile, ensure **Biber** is installed and configured.
+In **TexStudio**:
+
+```
+
+Options → Configure TexStudio → Build
+```
+Set:
+
+```
+Default Bibliography Tool → Biber
+```
+
+Then compile again.
+
+For manual complilation, run:
+
+```bash
+lualatex thesis.tex
+biber thesis
+lualatex thesis.tex
+lualatex thesis.tex
+```
+</details>
 
 # 💡 Tips
 
