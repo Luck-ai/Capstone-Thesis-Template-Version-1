@@ -1,325 +1,191 @@
+<div align="center">
+
 # 📘 Capstone Thesis LaTeX Template
 
-![LaTeX](https://img.shields.io/badge/LaTeX-LuaLaTeX-blue)
-![Platform](https://img.shields.io/badge/platform-windows%20|%20macos%20|%20linux-green)
-![Editor](https://img.shields.io/badge/Editor-TexStudio-orange)
+**A modern LuaLaTeX thesis template — modular chapters, Biber citations, Thai-script font support, one-key build in TeXstudio.**
 
-A **modern LuaLaTeX thesis template** designed for **Capstone theses**.  
-The project is structured for **easy chapter editing, modular organization, and clean document management**.
+[![LaTeX](https://img.shields.io/badge/LaTeX-LuaLaTeX-008080?style=for-the-badge&logo=latex&logoColor=white&labelColor=0E1626)](https://www.latex-project.org/)
+[![Editor](https://img.shields.io/badge/Editor-TeXstudio-22D3EE?style=for-the-badge&labelColor=0E1626)](https://texstudio.org/)
+[![Bibliography](https://img.shields.io/badge/Bibliography-Biber-5A8DFF?style=for-the-badge&labelColor=0E1626)](http://biblatex-biber.sourceforge.net/)
+[![Platforms](https://img.shields.io/badge/Windows%20·%20macOS%20·%20Linux-Cross%20platform-34D399?style=for-the-badge&labelColor=0E1626)](#-requirements)
+[![License](https://img.shields.io/badge/License-MIT-FB7185?style=for-the-badge&labelColor=0E1626)](LICENSE)
+
+</div>
 
 ---
 
-# ✨ Features
+## 🎯 What is it
 
-- 📚 Modular **chapter-based structure**
-- 🔤 **LuaLaTeX font support** for modern typography
-- 🖼 Organized **image and asset management**
-- 📖 Integrated **Biber citation system**
-- ⚡ Easy compilation with **TexStudio**
-- 🧩 Separate **configuration and content**
+A ready-to-use **LuaLaTeX** template for capstone / undergraduate thesis documents. Drop in your chapters, run F5 in TeXstudio, get a polished PDF. Ships with the **TH Sarabun** font set, a chapter-per-file layout, modular environment configuration, and a Biber-based bibliography.
 
+---
 
-# 📦 Requirements
+## ✨ Features
 
-Install the following software before compiling the thesis.
+- 📚 **Modular chapter-based structure** — one `.tex` per chapter under `chapters/`
+- 🔤 **LuaLaTeX font support** — full Unicode + modern typography
+- 🇹🇭 **TH Sarabun** font bundled (regular / bold / italic / bold-italic)
+- 🖼 Organized **image & asset management** under `images/`
+- 📖 Integrated **Biber** citation system
+- ⚡ One-key build with **TeXstudio**
+- 🧩 Separate **configuration** (`env.tex`) and **content**
 
-| Software | Purpose | Note
-|--------|--------|--------
-| **[MiKTeX](https://miktex.org/download)** | LaTeX distribution |
-| **[TexStudio](https://texstudio.org/#download)** | LaTeX editor | On linux ` sudo apt install texstudio `
-| **[Git](https://git-scm.com/download)** *(optional)* | Version control |
+---
 
+## 📦 Requirements
 
+| Software | Purpose | Notes |
+|---|---|---|
+| **[MiKTeX](https://miktex.org/download)**           | LaTeX distribution | Cross-platform — handles package install on first build |
+| **[TeXstudio](https://texstudio.org/#download)**    | LaTeX editor       | Linux: `sudo apt install texstudio` |
+| **[Git](https://git-scm.com/download)** *(optional)* | Version control    | Recommended for collaborative work |
 
-# ⚙️ Setup Instructions
+---
 
-## 1️⃣ Open the Project
+## 🚀 Setup
 
-Open **TexStudio** and load:
+### 1️⃣ Open the project
 
-```
-thesis.tex
-```
+Open **TeXstudio** and load `thesis.tex` (the main document).
 
-This is the **main document file**.
+### 2️⃣ Configure the compiler
 
-
-## 2️⃣ Configure Compiler
-
-In **TexStudio**:
-
-```
-Options → Configure TexStudio → Build
-```
-
-Set:
+`Options → Configure TeXstudio → Build`
 
 ```
-Default Compiler → LuaLaTeX
+Default Compiler          → LuaLaTeX
 Default Bibliography Tool → Biber
 ```
 
-LuaLaTeX provides:
+LuaLaTeX gives you better font rendering, full Unicode, and modern LaTeX features. Biber handles the bibliography.
 
-- better font rendering
-- full Unicode support
-- modern LaTeX features
+### 3️⃣ Auto-recompile *(optional)*
 
-Biber is used for bibliography management.
+`Options → Configure TeXstudio → Internal PDF Viewer → Auto Recompile on Save`
 
+### 4️⃣ Build the thesis
 
-## 3️⃣ Enable Auto Compilation (Optional)
+Press **F5** (Build & View). Output goes to `thesis.pdf`.
 
-```
-Options → Configure TexStudio → Internal PDF Viewer
-```
+---
 
-Enable:
+## 🗂 Project structure
 
-```
-Auto Recompile on Save
-```
-
-This recompiles the document automatically when saving.
-
-
-## 4️⃣ Compile the Thesis
-
-Press:
-
-``` text
-F5 (Build & View)
-```
-
-This generates:
-
-``` text
-thesis.pdf
-```
-
-
-# 📂 Project Structure
-
-```
-thesis-template/
-│
+```text
+Capstone-Thesis-Template-Version-1/
 ├── thesis.tex           # Main thesis file
 ├── env.tex              # Environment configuration
 ├── abbreviations.tex    # Acronyms
 ├── references.bib       # Bibliography
-│
-├── chapters/            # Thesis chapters
-│
+├── chapters/            # One .tex per chapter
 ├── images/              # Figures and graphics
-│
-├── fonts/               # Custom fonts
-│
+├── fonts/               # TH Sarabun + custom fonts
 └── thesis.pdf           # Compiled document
 ```
 
+---
 
-# ✍️ Adding Content
+## ✍️ Adding content
 
-## Add a Chapter
+### Add a chapter
 
-Create a new file in:
-
-```
-chapters/
-```
-
-Example:
-
-```
-chapters/introduction.tex
-```
-
-Include it in `thesis.tex`:
+Create `chapters/<name>.tex` and include it in `thesis.tex`:
 
 ```latex
 \input{chapters/introduction.tex}
 ```
 
+### Add an image
 
-## Add Images
-
-Place images inside:
-
-```
-images/
-```
-
-Example usage:
+Drop the file in `images/` and reference it:
 
 ```latex
 \includegraphics[width=\linewidth]{images/example.png}
 ```
 
+### Add a reference
 
-## Add References
-
-Add BibTeX entries to:
-
-```
-references.bib
-```
-
-Example:
+Add a BibTeX entry to `references.bib`:
 
 ```bibtex
 @article{example2024,
-  title={Example Paper},
-  author={Author, A},
-  year={2024}
+  title  = {Example Paper},
+  author = {Author, A},
+  year   = {2024}
 }
 ```
 
-Cite using:
+Cite with `\cite{example2024}`.
 
-```latex
-\cite{example2024}
-```
+### Modify abbreviations
 
+Edit `abbreviations.tex` — add or update acronyms as needed.
 
-## Modify Abbreviations
+---
 
-Edit:
+## 🧪 Debugging build errors
 
-```
-abbreviations.tex
-```
-
-Add or update acronyms as needed.
-
-
-# 🧪 Debugging Compilation Errors
-
-If **TexStudio fails to build**, compile using the **command line** to see the exact LaTeX error.
-
-Open a terminal in the project directory and run:
+If TeXstudio's build silently fails, compile from the command line — the raw output makes errors much easier to diagnose:
 
 ```bash
 lualatex thesis.tex
-biber thesis
+biber    thesis
 lualatex thesis.tex
 lualatex thesis.tex
 ```
 
-Command line compilation provides **full error output**, which makes it easier to diagnose problems such as:
+Helps with **missing packages**, **font errors**, **syntax errors**, and **incorrect file paths**.
 
-- missing packages
-- font errors
-- syntax errors
-- incorrect file paths
+---
 
-
-# 🐧 Common Issues 
+## 🆘 Common issues
 
 <details>
-<summary><b>MiKTeX Path Not Set (Linux)</b></summary>
+<summary><b>MiKTeX path not set (Linux)</b></summary>
 
-If compilation fails, MiKTeX binaries may not be in your PATH.
-
-Check in **MiKTeX Console** for warnings about missing PATH.
-
-Add the path to `.bashrc`:
+If compilation fails, MiKTeX binaries may not be on your `PATH`. Check **MiKTeX Console** for path warnings, then:
 
 ```bash
-export PATH="$PATH:$HOME/bin"
-```
-
-Reload:
-
-```bash
+echo 'export PATH="$PATH:$HOME/bin"' >> ~/.bashrc
 source ~/.bashrc
 ```
-
 </details>
 
----
-
 <details>
+<summary><b>Cambria Math font not found</b></summary>
 
-<summary><b>Cambria Math Font Not Found</b></summary>
+LuaLaTeX requires **Cambria Math**:
 
-LuaLaTeX requires the **Cambria Math font**.
-
-Fix:
-
-1. Download **Cambria Math**
-2. Install the `.ttf` font
-3. Open the file and click **Install**
-
+1. Download the `.ttf`.
+2. Open the file and click **Install**.
 </details>
 
----
-
 <details>
-<summary><b>Compilation Fails Due to Missing Packages</b></summary>
+<summary><b>Compilation fails due to missing packages</b></summary>
 
-Open **MiKTeX Console**
-
-```
-Settings → Package Installation
-```
-
-Set:
+In **MiKTeX Console** → `Settings → Package Installation`, set:
 
 ```
 Install missing packages on-the-fly → Always
 ```
 
-Then compile again.
-
+Then rebuild.
 </details>
 
----
-
 <details>
-<summary><b>Missing Package Errors</b></summary>
+<summary><b>Missing package errors</b></summary>
 
-If you see errors like:
-
-```
-File `kvoptions.sty' not found
-File `pdfescape.sty' not found
-```
-
-Update packages in:
-
-```
-MiKTeX Console → Updates
-```
-
-Then rebuild the document.
-
+If you see `File 'kvoptions.sty' not found` or similar, update packages in **MiKTeX Console → Updates** and rebuild.
 </details>
 
----
-
 <details>
-<summary><b>Bibliography Compilation Errors</b></summary>
+<summary><b>Bibliography compilation errors</b></summary>
 
-If bibliography fails to compile, ensure **Biber** is installed and configured.
-In **TexStudio**:
-
-```
-
-Options → Configure TexStudio → Build
-```
-Set:
-
-```
-Default Bibliography Tool → Biber
-```
-
-Then compile again.
-
-For manual complilation, run:
+Ensure **Biber** is installed and selected in `Options → Configure TeXstudio → Build → Default Bibliography Tool → Biber`. For manual builds:
 
 ```bash
 lualatex thesis.tex
-biber thesis
+biber    thesis
 lualatex thesis.tex
 lualatex thesis.tex
 ```
@@ -327,17 +193,17 @@ lualatex thesis.tex
 
 ---
 
-# 💡 Tips
+## 💡 Tips
 
-- Always compile using **LuaLaTeX**
-- Keep chapters modular
+- Always compile with **LuaLaTeX**
+- Keep chapters modular — one file each
 - Store images inside `images/`
-- Avoid modifying `env.tex` unless necessary
+- Avoid editing `env.tex` unless you have a reason
 
+---
 
+<div align="center">
 
-# 📜 License
+**Capstone Thesis Template** · [GitHub](https://github.com/Luck-ai/Capstone-Thesis-Template-Version-1) · [Issues](https://github.com/Luck-ai/Capstone-Thesis-Template-Version-1/issues)
 
-This template is intended for **academic use**.  
-Feel free to modify it for your thesis or research work.
-
+</div>
